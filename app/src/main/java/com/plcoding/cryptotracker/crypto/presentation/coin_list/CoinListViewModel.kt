@@ -28,9 +28,6 @@ class CoinListViewModel(private val coinDataSource : CoinDataSource) : ViewModel
             CoinListState()
         )
 
-//    init {
-//        loadCoins()
-//    }
 
     fun onAction(action : CoinListAction){
         when (action) {
